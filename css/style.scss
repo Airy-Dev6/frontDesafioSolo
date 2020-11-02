@@ -1,0 +1,90 @@
+$DarkBlue: hsl(217, 28%, 15%);
+
+* {
+    background-color: $DarkBlue;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    
+}
+
+header {
+    font-family: 'Raleway', sans-serif;
+    
+    div.container-header {
+        
+        nav {
+            margin: 20px 15px;
+            display: flex;
+            justify-content: space-between;
+            img {
+                width: 25%;
+            }
+            ul {
+                display: flex;
+                justify-content: space-between;
+                width: 60%;
+                align-items: center;
+                li {
+                    list-style: none;
+                    a {
+                        text-decoration: none;
+                        color: white;;
+                        :hover {
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+
+        div.img-header{
+
+            display: flex;
+            justify-content: center;
+            img {
+                width: 70%;
+                margin-top: 20px;
+            }
+        }
+        div.container-info {
+            display: flex;
+            position: relative;
+            flex-direction: column;
+            h1 {
+                
+                font-size: 27px;
+                width: 90%;
+                margin: 0px auto;
+                margin-top: 30px;
+                text-align: center;
+            }
+            p { 
+                width: 70%;
+                margin: 20px auto;
+                text-align: center;
+            }
+
+            button {
+                border: 0;
+                font-size: 15px;
+                margin: 0px auto;
+                margin-top: 10px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                border-radius: 25px;
+                background-color: cyan;
+                width: 200px;
+            }
+        }
+
+        div.absolute{
+            position: absolute;
+            z-index: -1;
+        }
+
+        
+    }
+
+    
+}
