@@ -1,1 +1,108 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  background-color: #1c2431;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: white;
+}
+
+header {
+  font-family: 'Raleway', sans-serif;
+}
+
+header div.container-header nav {
+  margin: 20px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header div.container-header nav img {
+  width: 25%;
+}
+
+header div.container-header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 60%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header div.container-header nav ul li {
+  list-style: none;
+}
+
+header div.container-header nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+header div.container-header nav ul li a :hover {
+  cursor: pointer;
+}
+
+header div.container-header div.img-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header div.container-header div.img-header img {
+  width: 70%;
+  margin-top: 20px;
+}
+
+header div.container-header div.container-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header div.container-header div.container-info h1 {
+  font-size: 27px;
+  width: 90%;
+  margin: 0px auto;
+  margin-top: 30px;
+  text-align: center;
+}
+
+header div.container-header div.container-info p {
+  width: 70%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+header div.container-header div.container-info button {
+  border: 0;
+  font-size: 15px;
+  margin: 0px auto;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 25px;
+  background-color: cyan;
+  width: 200px;
+}
+
+header div.container-header div.absolute {
+  position: absolute;
+  z-index: -1;
+}
+/*# sourceMappingURL=style.css.map */
